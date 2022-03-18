@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+    <!-- Hyper Text Markup Language which is used to create webpages & present the information on the website -->
+    <head>
+        <title>NavHTML</title> <!-- Title bar -->
+
+        <!-- Linking Font Awesome Icons -->
+        <link rel="stylesheet" href="./fontawesome-free-6.0.0-web/fontawesome-free-6.0.0-web/css/all.css">
+
+        <!-- External CSS -->
+        <link rel="stylesheet" href="./styles.css">
+
+        <!-- Type 1: Google Fonts can be applied here in the title using 'link' -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
+
+        <style>
+           .flexx {
+                display: inline-flex;
+                /* flex-direction: column-reverse; */
+                /* flex-wrap: wrap-reverse; */
+                /* justify-content: flex-start; */
+                /* justify-content: flex-end; */
+                /* justify-content: space-between; */
+                /* justify-content: space-around; */
+                /* justify-content: space-evenly; */
+                /* justify-content: center; */
+                margin-left: 30rem;
+                /* gap: 0 0.5rem; (row/col) */
+
+                /* height: 40vh;
+                align-items: stretch; (default)
+                align-items: flex-end;
+                align-items: flex-start;
+                align-items: center;
+                align-items: baseline; (when one item needs to be bigger like LOGO) */
+           }
+        </style>
+    </head>
+
+    <body>
+        <!-- Headings & Paragraphs -->
+         <!-- Inline CSS / Style Element -->
+         <div class="linehgt">
+            <h1 id="top" style="color: rgb(5, 75, 71);">Heya!!</h1>
+            <p style="color: darkcyan; font-size: 150%;">- This is just the Beginning.....</p>
+        </div>
+
+        <br />
+        
+        <div class="linehgt">
+            <h1 class="red">And I know, I CAN</h1>
+            <h2 class="brown">And I know, I CAN</h2>
+            <h3 class="red">And I know, I CAN</h3>
+            <h4 class="brown">And I know, I CAN</h4>
+            <h5 class="red">And I know, I CAN</h5>
+            <h6 class="brown">And I know, I CAN</h6>
+        </div>
+        
+        <br />
+        <h1>___..___..___..___..___..___..___..___..___..</h1>
+        <br />
+        <br />
+        
+        <div class="linehgt">
+            <h2>Wondering how to start???</h2>
+            
+            <!-- Internal/External Links -->
+            <h4>
+                <a href="InternalLink.html" target="_blank">You're just one tap away!!!</a>
+            </h4>
+        </div>
+
+        <br />
+        
+        <!-- Same Page Link -->
+        <h2>"Surround yourself with people who motivate and inspire you" <br /> Today is the day - 29th Jan, 2022</h2>
+
+        <!-- Subscript / Superscript / Strong / Emphasized / Special Characters -->
+        <p class="message">
+            It's all happening b'coz of this one person - 
+            <a href="#rahul">RAHUL.</a>
+            You should know that I Love You to 
+            <strong> 
+                <em>
+                    Love
+                    <sup>infi+1</sup>
+                </em>
+            </strong>. 
+            <br />
+            &#174 ALL RIGHTS RESERVED &copy;
+        </p>
+        <br /><br />
+
+        <h2 id="us">All About Us!</h2>
+
+        <!-- Table / Rows / Headings / Data -->
+        <table style="border: 2px solid black; border-spacing: 10px;">
+          <tr>
+              <th>.</th>
+              <th>Rahul</th>
+              <th>Navyatha</th>
+              <th>Himanshu</th>
+          </tr>  
+          <tr>
+              <th>Vijay</th>
+              <td>Son-in-law</td>
+              <td>Daughter</td>
+              <td>In laws</td>
+          </tr>
+          <tr>
+              <th>Latha</th>
+              <td>Son-in-law</td>
+              <td>Daughter</td>
+              <td>In laws</td>
+          </tr>
+          <tr>
+              <th>Suresh</th>
+              <td>Son</td>
+              <td>Daughter-in-law</td>
+              <td>Son
+          </tr>
+          <tr>
+              <th>Uma
+              <td>Son</td>
+              <td>Daughter-in-law</td>
+              <td>Son</td>
+          </tr>
+        </table>
+
+        <br /> 
+        <br />
+
+        <!-- Text-Decoration -->
+        <p style="text-decoration:underline;"> 
+            <strong> New Member To Our Family?? 
+                <!-- Span Element -->
+                <span class="bgcolor">(Please fill in the details)</span> 
+            </strong>
+        </p>
+
+        <!-- Form / Label / Input Type / Button / Textarea / Select & Option -->
+        <form action="" method="">
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName">
+
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastName">
+            <br /><br />
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="20" max="28" >
+            <br /><br />
+
+            <label for="lang">Can Speak: </label> 
+            <input type="checkbox" name="lang">Tulu
+            <input type="checkbox" name="lang">Hindi
+            <input type="checkbox" name="lang">English
+            <input type="checkbox" name="lang">Tamil
+            <input type="checkbox" name="lang">Kannada
+            <input type="checkbox" name="lang">Malayalam
+            <br />
+            <textarea name="lang" cols="20" rows="1">Type if any other</textarea>
+            <br />
+            <br />
+
+            <label for="food">What are you??</label>
+            <select name="food">
+                <option value="food" id="food">Vegetarian</option>
+                <option value="food" id="food">Non-vegetarian</option>
+            </select>
+            <br />
+            <br />
+
+            <label for="email">Email ID</label>
+            <input type="email" name="email" placeholder="xyz@gmail.com" id="email"> 
+            <br />
+            <br />
+
+            <label for="num">Phone No</label>
+            <input type="tel" name="text" value="+91" id="num">
+            <br />
+            <br />
+
+            <label>Reach out to me</label>
+            <input type="radio" name="contact" checked>Phone
+            <input type="radio" name="contact">Email
+            <br />
+            <br />
+
+            <label for="pass">Set a new password for this page</label>
+            <input type="password" name="password" placeholder="******" id="pass">
+            <br />
+            <br />
+
+            <textarea name="info" cols="30" rows="5">Leave a message!!</textarea>
+            <br />
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        <br /> 
+        <br />
+
+        <!-- Div Element -->
+        <div>
+            <h2  class="divv"> 
+                “Having a place to go is a home. Having someone to love is a family. Having both is a blessing.” 
+            </h2>
+        </div>
+
+        <!-- EM / REM / Text-Align -->
+        <div class="color1">
+            <h1 style="margin: 0%; font-size: 18px; text-align-last:center;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, beatae.
+            </h1>
+        </div>
+
+        <h2 class="paddingg">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, iste impedit culpa ab aspernatur praesentium odit? Unde ipsam reiciendis odit!
+        </h2>
+
+        <div class="color2">
+            <h1 style="margin: 0%; font-size: 18px; text-align:center;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sunt quaerat, impedit ut fuga et quos asperiores repellat? A recusandae tempora est. Qui voluptatum assumenda dolorem dolor sapiente debitis, culpa non ipsa fugit quaerat nam doloribus possimus temporibus accusamus voluptates porro aspernatur, molestiae rerum, sed hic. Omnis repudiandae accusamus quasi eaque ratione iusto doloribus ipsam sunt magnam laboriosam fugiat debitis quisquam praesentium cupiditate non, nobis soluta quis, architecto eligendi. Repellat nulla eveniet eius soluta a laborum tempore voluptatum accusantium quia eum ducimus magnam, pariatur deserunt quam asperiores porro, at adipisci. Fugiat excepturi libero amet! Praesentium error dicta itaque sunt dolor?
+            </h1>   
+       </div>
+
+       <br /><br />
+
+        <h1 style="text-decoration: underline; color: rgb(153,38, 28); margin-left: 60px;">
+            Please Hover:
+        </h1>
+
+        <div class="play one">
+           <h4>I</h4>
+        </div>
+        <div class="play two">
+           <h4>LOVE</h4>
+        </div>
+        <div class="play three">
+           <h4>YOU</h4>
+        </div>
+    
+        <div class="box box1">
+            <div class="icon"></div>
+            <h3>
+               RAHUL
+            </h3>
+            <p class="para">
+               How to become The Best Husband??
+            </p>
+            <br />
+            <button class="btn1">
+               The Mantra
+            </button>
+        </div>
+
+        <div class="box box2">
+            <div class="icon"></div>
+            <h3>
+                NAVYATHA
+            </h3>
+            <p class="para">
+                How to become The Best Wife??
+            </p>
+            <br />
+            <button class="btn2">
+                The Mantra
+            </button>
+        </div>
+
+        <div class="ranav">
+            #RaNav
+        </div>
+
+        <div class="bgimg1">
+            <h1>I LOVE YOU BABBUDU</h1>
+        </div>
+
+        <div class="bgimg2">
+            <h1>FOREVER</h1>
+        </div>
+
+        <div class="bgimg3">
+            <h1>AND EVER....</h1>
+        </div>
+
+        <div class="lingrd">
+            <h1>Rahul _ & _ Navyatha</h1>
+        </div>
+
+        <div class="linebreak"></div>
+
+        <div class="floatt">
+            <img class="wed1" src="./wed1.jpeg" alt="">
+            Boundless Chemistry
+            <img class="wed2" src="./wed2.jpeg" alt="">
+            My Hero...
+        </div>
+        
+        <div class="linebreak"></div>
+
+        <div class="crack">
+            <h1>Baba surprised me with his gift!!! </h1>
+            <img src="./crack1.jpeg" class="cr1" alt="">
+            <img src="./crack2.jpeg" class="cr2" alt="">
+            <img src="./crack1.jpeg" class="cr3" alt="">
+            <img src="./crack2.jpeg" class="cr4" alt="">
+            <img src="./crack1.jpeg" class="cr5" alt="">
+            <img src="./crack2.jpeg" class="cr6" alt="">
+            <h2>The best gift ever!!!</h2>
+        </div>
+
+        <br /> <br /> <br /> <br /> <br />
+            <div class="doubleline1"></div> <br />
+            <div class="doubleline1"></div> 
+        <br /> 
+
+        <h1 class="first">
+            Together Forever
+        </h1>
+        <br /><br /> <br /> <br /><br />
+
+        <!-- Pseudo Elements ::before|::after -->
+        <div class="pseudo">
+            <img src="./rings.jpeg" class="rings" alt="">
+        </div>
+
+        
+        <!-- Inset: 10px 30px 50px 20px & use background color | Inset:0 - complete parent will be coloured -->
+
+        <!-- CSS Variables -->
+        <div class="cssvar">
+            <p>“If I had a flower for every time I thought of you… I could walk through my garden forever.”</p>
+        </div>
+
+        <!-- Font Awesome Icons-->
+        <i class="fa-solid fa-face-kiss-wink-heart"></i>
+        <br /><br /><br /><br />
+
+        <div class="flexx">
+            <div class="fle fle-1">I</div>
+            <div class="fle fle-2">LOVE</div>
+            <div class="fle fle-3">YOU</div>
+            <div class="fle fle-4">MORE</div>
+            <div class="fle fle-5">AND</div>
+            <div class="fle fle-6">MORE</div>
+            <div class="fle fle-7">AND</div>
+            <div class="fle fle-8">MORE...</div>
+        </div>
+        
+        <!-- Line Breaks -->
+        <br /> <br /><br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /><br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> 
+
+
+        <h1 id="rahul">My Husband</h1>
+
+        <!-- Image as a Link -->
+        <a href="https://www.facebook.com/shettayyy" target="_blank">
+            <img src="Rah.jpeg" alt="My Love" height="400"> 
+        </a>
+        <br />
+
+        <a href="#top">Back to top</a>
+
+        <!-- Copy Paste the Google Font -->
+        <!-- Typography: Font-Weight / Font-Style / Text-Indent -->
+        <h3 style="font-family: 'Homemade Apple', cursive; text-align: center; font-weight: bolder; font-style: normal; text-indent: 50px; text-decoration: overline; word-spacing: 3px; letter-spacing: 2px; line-height: 2.5;">
+            i love you more than i love myself Babu.
+                          <br />  - Your loving wife,
+                          <br />     Babudi
+        </h3>
+
+        <div class="fooot">
+            <h3>Visit Again</h3>
+            <div class="underlinee"></div>
+            <br />
+            <div class="linkss">
+                <a href="#">About</a>
+                <a href="#">Email</a>
+                <a href="#">Contact</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+
+    </body>
+</html>
